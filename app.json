@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "oraculo-app",
-    "slug": "oraculo-app",
+    "name": "Oráculo Cristão",
+    "slug": "oraculo-cristao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.guilhermemagic.oraculocristao"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "acc143c3-ddc3-4bdb-b04f-7a876fdb65ae"
+      }
     }
   }
 }
