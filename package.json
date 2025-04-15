@@ -1,7 +1,11 @@
 {
   "name": "oraculo-app",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "node_modules/expo/AppEntry.js",
+=======
+  "main": "index.js",
+>>>>>>> 6e0c49b0 (Corrige escopo da função handler)
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,6 +13,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+<<<<<<< HEAD
     "expo": "~52.0.43",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
@@ -17,6 +22,13 @@
     "react-native-web": "~0.19.13",
     "@expo/metro-runtime": "~4.0.1",
     "expo-clipboard": "~7.0.1"
+=======
+    "expo": "~52.0.46",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "expo-clipboard": "^4.0.2"
+>>>>>>> 6e0c49b0 (Corrige escopo da função handler)
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
